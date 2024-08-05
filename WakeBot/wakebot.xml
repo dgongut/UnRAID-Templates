@@ -19,7 +19,7 @@
   <CPUset/>
   <DateInstalled>1722844693</DateInstalled>
   <DonateText/>
-  <DonateLink>https://donate.dgongut.com<DonateLink/>
+  <DonateLink/>
   <Requires/>
   <Config Name="TELEGRAM_ADMIN" Target="TELEGRAM_ADMIN" Default="" Mode="" Description="Administrator Telegram User ID (numbers).&#13;&#10;More than 1 could be set splitted by commas" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="TELEGRAM_TOKEN" Target="TELEGRAM_TOKEN" Default="" Mode="" Description="Telegram Bot Token" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
