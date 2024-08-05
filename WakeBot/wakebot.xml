@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>WakeBot</Name>
+  <Repository>dgongut/wakebot</Repository>
+  <Registry>https://hub.docker.com/r/dgongut/wakebot</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/dgongut/wakebot</Project>
+  <Overview>Telegram Bot - Wake up your devices via Wake on LAN</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/dgongut/pictures/main/WakeBot/WakeBot.png</Icon>
+  <ExtraParams>--tty</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1722844693</DateInstalled>
+  <DonateText/>
+  <DonateLink>https://donate.dgongut.com<DonateLink/>
+  <Requires/>
+  <Config Name="TELEGRAM_ADMIN" Target="TELEGRAM_ADMIN" Default="" Mode="" Description="Administrator Telegram User ID (numbers).&#13;&#10;More than 1 could be set splitted by commas" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="TELEGRAM_TOKEN" Target="TELEGRAM_TOKEN" Default="" Mode="" Description="Telegram Bot Token" Type="Variable" Display="always-hide" Required="true" Mask="true"/>
+  <Config Name="LANGUAGE" Target="LANGUAGE" Default="ES" Mode="" Description="Language ES/EN" Type="Variable" Display="always-hide" Required="false" Mask="false">ES</Config>
+  <Config Name="Device Storage" Target="/app/data" Default="/mnt/user/appdata/wakebot/" Mode="rw" Description="This is where the data of the devices will be stored." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/wakebot/</Config>
+</Container>
